@@ -1,0 +1,25 @@
+--Cargar archivo:
+consult('***').
+
+--Visualizar base de conocimientos:
+listing.
+
+listin(activar_riego).
+
+--Consultas:
+activar_riego. (True / false)
+hora_adecuada. (Menor a 10, mayor a 18)
+probabilidad_lluvia(X). (True / False)
+estado_riego(X). (Activado / No Activado)
+recomendacion.
+
+
+-- Consultas actualizadas
+activar_riego(sur).
+estado_riego(sur, Estado).
+recomendacion(sur, Mensaje).
+nivel_riesgo(sur, Nivel).
+explicacion(sur, Razon).
+hora_adecuada_zona(sur).
+probabilidad_lluvia(sur, Lluvia).
+humedad_baja(sur, humedad).
